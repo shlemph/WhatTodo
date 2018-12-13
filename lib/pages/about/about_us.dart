@@ -20,7 +20,7 @@ class AboutUsScreen extends StatelessWidget {
                     ListTile(
                         leading:
                             Icon(Icons.bug_report, color: Colors.black),
-                        title: Text("Rpeort an Issue"),
+                        title: Text("Report an Issue"),
                         subtitle: Text("Having an issue ? Report it here"),
                         onTap: () => launchURL(ISSUE_URL)),
                     ListTile(
